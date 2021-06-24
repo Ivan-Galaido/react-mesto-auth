@@ -1,0 +1,13 @@
+.header {
+  flex: 0 0 auto;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 880px;
+  width: 100%;
+  min-width: 242px;
+  margin: 0 auto;
+  transition: .6s ease;
+}

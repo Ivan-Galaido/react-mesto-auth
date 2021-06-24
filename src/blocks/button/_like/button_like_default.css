@@ -1,0 +1,10 @@
+.button_like_default {
+  background-image: url(../../../images/icon-heart_transparent.svg);
+  width: 22px;
+  height: 19px;
+  margin-bottom: 3px;
+}
+
+.button_like_default:hover {
+  opacity: .5;
+}

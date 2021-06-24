@@ -1,0 +1,23 @@
+.header__nav {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 44px 0 40px;
+  border-bottom: 1px solid rgba(54, 54, 54, .7);
+  border-top: 1px solid rgba(54, 54, 54, .7);
+  transition: .3s ease;
+}
+
+@media screen and (max-width: 938px) {
+  .header__nav {
+    padding: 44px 30px 40px;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .header__nav {
+    padding: 27px 30px 30px;
+  }  
+}

@@ -1,0 +1,14 @@
+.form__heading_type_start-page {
+  color: #fff;
+  text-align: center;
+  margin: 0 auto 40px;
+}
+
+@media screen and (max-width: 635px) {
+  .form__heading_type_start-page {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+  }
+}
+

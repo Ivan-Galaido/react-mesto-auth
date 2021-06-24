@@ -1,0 +1,9 @@
+.form__input_type_start-page {
+  background-color: transparent;
+  color: #fff;
+  border-bottom: 2px solid #ccc;
+}
+
+.form__input_type_start-page::placeholder {
+  color: #ccc;
+}

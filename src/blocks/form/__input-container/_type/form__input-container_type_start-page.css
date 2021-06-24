@@ -1,0 +1,9 @@
+.form__input-container_type_start-page {
+  margin: 0 auto 196px;
+}
+
+@media screen and (max-width: 635px) {
+  .form__input-container_type_start-page {
+    margin-bottom: 153px;
+  }
+}

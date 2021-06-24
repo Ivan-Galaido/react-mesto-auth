@@ -1,0 +1,15 @@
+.start-page__link {
+  display: block;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.24;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  transition: .6s ease;
+}
+
+.start-page__link:hover {
+  opacity: .6;
+}

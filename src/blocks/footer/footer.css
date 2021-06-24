@@ -1,0 +1,19 @@
+.footer {
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  max-width: 880px;
+  width: 100%;
+  min-width: 242px;
+  min-height: 21px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+  transition: .6s ease;
+}
+
+@media screen and (max-width: 938px) {
+  .footer {
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-bottom: 36px;
+  }
+}

@@ -1,0 +1,13 @@
+.header__line {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  width: 24px;
+  height: 3px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  transition: .6s ease;
+}

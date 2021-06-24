@@ -1,0 +1,48 @@
+.header__burger {
+  display: none;
+}
+
+@media screen and (max-width: 635px) {
+  .header__burger {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0;
+    transition: .6s ease;
+  }
+
+  .header__burger:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+
+  .header__burger::before,
+  .header__burger::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+    display: block;
+    width: 24px;
+    height: 3px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    transition: .6s ease;
+  }
+
+  .header__burger::before {
+    top: 0;
+  }
+
+  .header__burger::after {
+    bottom: 0;
+  }
+}
+

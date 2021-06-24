@@ -1,0 +1,13 @@
+.start-page {
+  box-sizing: border-box;
+  margin-bottom: 40px;
+  padding: 60px 30px 0;
+  width: 100%;
+  flex: 1 0 auto;
+}
+
+@media screen and (max-width: 635px) {
+  .start-page {
+    padding-top: 40px;
+  }
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width: 635px) {
+  .header__mobile-menu_hidden {
+    visibility: hidden;
+    opacity: 0;
+    padding: 0;
+    pointer-events: none;
+  }
+
+  .header__mobile-menu_hidden .header__email,
+  .header__mobile-menu_hidden .header__link_faded {
+    margin: 0 auto;
+    font-size: 0;
+  }
+}
