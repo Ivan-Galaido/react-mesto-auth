@@ -16,3 +16,5 @@
 * удаление фотографий
 * смена аватара
 * сборка Webpack на основе Create-React-App
+
+Ссылка на сайт https://ivan-galaido.github.io/react-mesto-auth/
